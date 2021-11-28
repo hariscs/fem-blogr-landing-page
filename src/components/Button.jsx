@@ -1,4 +1,4 @@
-const STYLES = ['btn-fill', 'btn-ouline'];
+const STYLES = ['btn-fill', 'btn-outline'];
 
 const Button = ({ children, buttonStyle }) => {
 	const checkButtonStyle = STYLES.includes(buttonStyle)

@@ -21,7 +21,7 @@ const Header = () => {
 	window.addEventListener('resize', showButton);
 
 	return (
-		<header className=' bg-hero-pattern bg-right-top bg-cover bg-red-400 bg rounded-bl-3xl font-body p-8'>
+		<header className=' bg-hero-pattern bg-right-top bg-red-400 bg-cover rounded-bl-3xl font-body p-8'>
 			{/* navbar start */}
 			<div className='flex items-center justify-between'>
 				<img src={logo} alt='logo' />
@@ -57,7 +57,7 @@ const Header = () => {
 				</p>
 				<div className='flex gap-4'>
 					<Button>Start For Free</Button>
-					<Button>Learn More</Button>
+					<Button buttonStyle='btn-outline'>Learn More</Button>
 				</div>
 			</div>
 		</header>
