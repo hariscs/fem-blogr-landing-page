@@ -52,10 +52,10 @@ const Header = () => {
 				<h1 className='font-bold text-white text-4xl text-center'>
 					A modern publishing platform
 				</h1>
-				<p className='text-white text-md'>
+				<p className='text-white text-md mt-6'>
 					Grow your audience and build your online brand
 				</p>
-				<div className='flex gap-4'>
+				<div className='flex gap-4 mt-8'>
 					<Button>Start For Free</Button>
 					<Button buttonStyle='btn-outline'>Learn More</Button>
 				</div>
